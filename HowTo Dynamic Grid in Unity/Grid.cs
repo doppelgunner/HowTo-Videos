@@ -51,7 +51,7 @@ public class Grid : MonoBehaviour {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 //add the cell size so that no two cells will have the same x and y position
-                Vector2 pos = new Vector2(col * cellSize.x + gridOffset.x, row * cellSize.y + gridOffset.y);
+                Vector2 pos = new Vector2(col * cellSize.x + gridOffset.x + transform.position.x, row * cellSize.y + gridOffset.y + transform.position.y);
 
                 //instantiate the game object, at position pos, with rotation set to identity
                 GameObject cO = Instantiate(cellObject, pos, Quaternion.identity) as GameObject;
