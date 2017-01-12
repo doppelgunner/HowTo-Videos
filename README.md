@@ -1,10 +1,10 @@
 # HowTo-Videos
 A repo for my HowTo videos in youtube
 
-HowTo videos:
+###HowTo videos:
 * [HowTo Tutorial: Dynamic Grid in Unity C#](https://youtu.be/ABEwdnne9AI)
 * [HowTo Tutorial: Deadlock in Java under 5 minutes](https://youtu.be/ur_THx9lSj0)
-
+<hr>
 * My Accounts 
   * [blogspot](http://doppelgunner.blogspot.com/)
   * [instagram](https://www.instagram.com/doppelgunner/)
