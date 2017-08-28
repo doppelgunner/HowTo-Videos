@@ -1,0 +1,67 @@
+<html>
+	<head>
+	<title>HowTo: LIVE CSS</title>
+	<style>
+		.live_css {
+			display: block;
+			background: #555;
+			color: rgb(220,100,100);
+			font: 16px Arial;
+			padding: 5px;
+			white-space: pre;
+			width: 440px;
+			overflow-x: auto;
+			font-weight: bold;
+			margin: 5 0 0 10;
+		}
+		.extra_space {
+			height: 300px;
+		}
+	</style>
+	</head>
+	<body>
+		<div class="card">
+			<div class="header">
+				<h1>LIVE CSS</h1>
+			</div>
+			<div class="content">
+				<p>You can use this to style the whole html page and prototype
+				designs. with this you can easily see the changes to see whether
+				you like the result or not. You don't have to worry about
+				changing the css code in your favorite text editor anmore. It
+				just saves front-end developers, they can just hit refresh if they don't want the result.
+				</p>
+			</div>
+			<div class="alert">
+				<p>SHIFT + ENTER for new line, ENTER won't work</p>
+			</div>
+		</div>
+		<style class="live_css" scoped contenteditable>
+.card {
+width: 450px;
+height: 260px;
+margin: 10px;
+}
+.header {
+background-color: #ccc;
+text-align: center;
+color: white;
+}
+.content {
+border: 2px solid #ccc;
+padding: 5px;
+font-weight: bold;
+color: #555;
+}
+.alert {
+background-color: rgb(220,100,100);
+height: 30px;
+text-align: center;
+color:white;
+font-weight: bold;
+line-height: 30px;
+}
+		</style>
+		<div class="extra space"></div>
+	</body>
+</html>
