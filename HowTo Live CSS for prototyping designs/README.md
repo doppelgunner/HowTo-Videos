@@ -1,10 +1,8 @@
 # HowTo-Videos
 A repo for my HowTo videos in youtube
 
-### Tutorials:
-* [HowTo Tutorial: Dynamic Grid in Unity C#](https://youtu.be/ABEwdnne9AI)
-* [HowTo Tutorial: Deadlock in Java under 5 minutes](https://youtu.be/ur_THx9lSj0)
-* [HowTo Tutorial: Composite / Component design pattern in java](https://youtu.be/M11yGH0t9-U)
+### Demo:
+* https://doppelgunner.github.io/HowTo-Videos/live_css.html
 
 ### My Accounts 
   * [blogspot](http://doppelgunner.blogspot.com/)
